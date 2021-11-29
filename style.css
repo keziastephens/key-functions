@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(252, 233, 235);
+}
+
+.padControls{
+    width: 50vw;
+    height: 20vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.pad{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    height:  10vh;
+    width: 5vw;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,.08),
+                -2px -2px 10px 0 rgba(255,255,255,1);
+}
+
+.pad p{
+    /* opacity: 0.2; */
+}
